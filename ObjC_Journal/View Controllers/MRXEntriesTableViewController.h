@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MRXEntriesTableViewController.h
 //  ObjC_Journal
 //
 //  Created by Alex Lundquist on 3/25/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MRXEntriesTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
